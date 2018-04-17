@@ -8,11 +8,18 @@ public class HelloWorld {
 		showData.show();
 	}
 
+	public void show() {
+		System.out.println("Execute  show");
+		System.out.println("Test 1");
+
+	}
+
 	class ShowData {
 
 		public void show() {
 			System.out.println("Execute  show");
 			System.out.println("Test 1");
 		}
+
 	}
 }
