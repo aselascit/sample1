@@ -4,11 +4,15 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// Call to show method
-		show();
+		ShowData showData = new HelloWorld().new ShowData();
+		showData.show();
 	}
 
-	public static void show() {
+	class ShowData {
+
+		public void show() {
 			System.out.println("Execute  show");
 			System.out.println("Test 1");
+		}
 	}
 }
