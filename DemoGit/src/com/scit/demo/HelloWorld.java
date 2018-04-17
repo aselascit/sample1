@@ -9,5 +9,6 @@ public class HelloWorld {
 
 	public static void show() {
 			System.out.println("Execute  show");
+			System.out.println("Test 1");
 	}
 }
